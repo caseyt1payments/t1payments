@@ -1,0 +1,1 @@
+<h2><strong><?php echo $value['name']; ?></strong></h2>
