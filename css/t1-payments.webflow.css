@@ -6035,8 +6035,17 @@ p {
 }
 
 .apply-now-content-wrapper {
-
+  top: 21% !important;
 }
+
+#input_5_4 {
+  margin-top: 1.15em;
+}
+
+#field_5_1, #field_5_3, #field_5_5 {
+  padding-right: 10px !important;
+}
+
 .left-page-title p {
   margin-bottom: inherit;
   color: inherit;
@@ -7497,7 +7506,25 @@ p {
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:500,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Rubik:500,700');
+
+@font-face {
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-weight:400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik medium';
+  font-weight:500;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Rubik bold';
@@ -8188,3 +8215,54 @@ body .ui-tooltip{border-width:2px;}
 .ui-corner-br{border-bottom-right-radius:4px;}
 .ui-widget-overlay{background:#aaaaaa url("images/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;opacity:.3;filter:Alpha(Opacity=30);}
 .ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaaaaa 50% 50% repeat-x;opacity:.3;filter:Alpha(Opacity=30);border-radius:8px;}
+
+
+/*STYLE.CSS*/
+
+
+.alignleft {
+  float: left;
+  margin: 0.375em 1.75em 1.75em 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0.375em 0 1.75em 1.75em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto 1.75em;
+}
+
+blockquote.alignleft {
+  margin: 0.3157894737em 1.4736842105em 1.473684211em 0;
+}
+
+blockquote.alignright {
+  margin: 0.3157894737em 0 1.473684211em 1.4736842105em;
+}
+
+blockquote.aligncenter {
+  margin-bottom: 1.473684211em;
+}
+.wp-caption{
+
+}
+.wp-caption-text{
+
+}
+.sticky{
+
+}
+.screen-reader-text{
+
+}
+.gallery-caption{
+
+}
+.bypostauthor{
+
+}
+

@@ -19,7 +19,7 @@ function governor_scripts() {
 //	wp_enqueue_style('webflow-main-styles', get_template_directory_uri() . '/css/webflow.css', array(), null );
 
 	/// Webflow Project Specific Styles
-	wp_enqueue_style('t1-payments', get_template_directory_uri() . '/css/t1-payments.webflow.css', array(), null );
+	wp_enqueue_style('t1-payments', get_template_directory_uri() . '/css/t1-payments.webflow.min.css', array(), null );
 
 	// Gravity Forms Specific Styles
 //	wp_enqueue_style('governor-gravity', get_template_directory_uri() . '/css/governor-gravity.css', array(), null );
@@ -28,11 +28,11 @@ function governor_scripts() {
 
 
 	// Secondary Stylesheet => $theme/style.css
-	wp_enqueue_style( 'governor-style', get_stylesheet_uri() );
+//	wp_enqueue_style( 'governor-style', get_stylesheet_uri() );
 
 
 	// Webflow Main JS
-	wp_enqueue_script( 'webflow-js', get_template_directory_uri() . '/js/webflow.js', array(), '1.0', true );
+//	wp_enqueue_script( 'webflow-js', get_template_directory_uri() . '/js/webflow.js', array(), '1.0', true );
 
 	// Let's Add respond.js if IE 8
 	if ( strpos( $_SERVER['HTTP_USER_AGENT'], 'MSIE 8' ) ) {
@@ -41,11 +41,11 @@ function governor_scripts() {
 	}
 
 	// Modernizr
-	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array(), '1.0', true );
+//	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', array(), '1.0', true );
 
 	// Progressbar
 	//wp_enqueue_script( 'progressjs', '//code.jquery.com/ui/1.11.4/jquery-ui.js', array(), '1.0', true );
-	wp_enqueue_script( 'progressjs', '//code.jquery.com/ui/1.12.1/jquery-ui.js', array(), '1.0', true );
+	wp_enqueue_script( 'progressjs', '//code.jquery.com/ui/1.12.1/jquery-ui.min.js', array(), '1.0', true );
 
 	// Customjs
 	//wp_enqueue_script( 'customjs', get_template_directory_uri() . '/js/custom.js', array(), '1.0', true );
@@ -58,17 +58,18 @@ function governor_scripts() {
 	wp_enqueue_script( 'min-js', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js', array(), '1.0', false );
 
 	// Skip Link for ADA Compliance
-	wp_enqueue_script( 'governor-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+//	wp_enqueue_script( 'governor-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	// if(is_page(5) || is_page(17) || is_page(9) || is_page(15) || is_page(11)) {
 	// 	wp_enqueue_script('waypoints', 'https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js', array(), '4.0.1', true);
 	// 	wp_enqueue_script('velocity', 'http://cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js', array(), '1.1.0', true);
 	// }
-	wp_enqueue_script('scroll-magic', get_template_directory_uri() . '/js/ScrollMagic.min.js', array(), '1.0', true );
-	wp_enqueue_script('tween-anim', get_template_directory_uri() . '/js/TweenMax.min.js', array(), '1.0', true );
-	wp_enqueue_script('jquery-gsap', get_template_directory_uri() . '/js/jquery.gsap.min.js', array(), '1.0', true );
-	wp_enqueue_script('gsap-anim', get_template_directory_uri() . '/js/animation.gsap.js', array(), '1.0', true );
-	wp_enqueue_script('animations', get_template_directory_uri() . '/js/animations.js', array(), '1.0', true );
+   wp_enqueue_script('main', get_template_directory_uri() . '/js/main.min.js', array(), '1.0', true );
+//	wp_enqueue_script('scroll-magic', get_template_directory_uri() . '/js/ScrollMagic.min.js', array(), '1.0', true );
+//	wp_enqueue_script('tween-anim', get_template_directory_uri() . '/js/TweenMax.min.js', array(), '1.0', true );
+//	wp_enqueue_script('jquery-gsap', get_template_directory_uri() . '/js/jquery.gsap.min.js', array(), '1.0', true );
+//	wp_enqueue_script('gsap-anim', get_template_directory_uri() . '/js/animation.gsap.js', array(), '1.0', true );
+//	wp_enqueue_script('animations', get_template_directory_uri() . '/js/animations.js', array(), '1.0', true );
 
 	// Add Comments to Blog Articles When Comments Are Open
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -92,3 +93,5 @@ function functions_access() {
 add_action('admin_enqueue_scripts', 'functions_access');
 
 ?>
+
+

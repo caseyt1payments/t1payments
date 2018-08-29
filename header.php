@@ -46,15 +46,6 @@ switch(get_page_uri()){
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <!-- <meta http-equiv="X-UA-Compatible" content="IE=11">
         <meta http-equiv="X-UA-Compatible" content="IE=8"> -->
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-		
-        <script>
-            WebFont.load({
-              google: {
-                families: ["PT Sans:400,400italic,700,700italic"]
-              }
-            });
-        </script>
 
         <link href="<?php echo get_template_directory_uri(); ?>/images/fav.png" rel="shortcut icon" type="image/x-icon">
         <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
@@ -66,29 +57,33 @@ switch(get_page_uri()){
         <?php wp_head(); ?>
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T6635GZ');</script>
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T6635GZ');
+</script>
 <!-- End Google Tag Manager -->
 		
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6635GZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6635GZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->		
     
 <script type="text/javascript">
-_linkedin_data_partner_id = "351106";
-</script><script type="text/javascript">
-(function(){var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})();
+    _linkedin_data_partner_id = "351106";
+</script>
+<script type="text/javascript">
+    (function(){var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);})();
 </script>
 <noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=351106&fmt=gif" />
+    <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=351106&fmt=gif" />
 </noscript>
 		
 		
@@ -104,17 +99,18 @@ s.parentNode.insertBefore(b, s);})();
 <!--        </div>-->
         <div class="solid-header w-nav" data-animation="over-right" data-collapse="medium" data-duration="400">
             <div class="header-inner w-clearfix">
-                <a class="logo solid w-nav-brand" href="<?php echo esc_url( home_url( ) ); ?>"><img alt="logo" title="logo" width="150" height="25" src="<?php echo get_template_directory_uri(); ?>/images/Horizontal-logo-color.svg">
+                <a class="logo solid w-nav-brand" href="<?php echo esc_url( home_url( ) ); ?>">
+                    <img alt="logo" title="logo" width="150" height="25" src="<?php echo get_template_directory_uri(); ?>/images/Horizontal-logo-color.svg">
                 </a>
                 <nav class="nav-menu w-nav-menu white"><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $merchants_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>merchants">Merchants</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $partners_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>partners">Partners</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $payment_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>payment-gateway">Payment Gateway</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $global_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>global-processing">Global Processing</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $about_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>about-us">About Us</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $news_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>news">News</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $contact_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>contact">Contact</a><!--
-                 --><a class="apply nav-link solid w-nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>apply-now">Apply Now</a>
+                 --><a class="gray nav-link w-nav-link <?php echo $merchants_active; ?>" href="/merchants">Merchants</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $partners_active; ?>" href="/partners">Partners</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $payment_active; ?>" href="/payment-gateway">Payment Gateway</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $global_active; ?>" href="/global-processing">Global Processing</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $about_active; ?>" href="/>about-us">About Us</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $news_active; ?>" href="/news">News</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $contact_active; ?>" href="/contact">Contact</a><!--
+                 --><a class="apply nav-link solid w-nav-link" href="/apply-now">Apply Now</a>
                 </nav>
                 <div class="menu-btn on-solid-header w-clearfix w-nav-button">
                     <div class="menu-icon w-icon-nav-menu"></div>
@@ -156,14 +152,14 @@ s.parentNode.insertBefore(b, s);})();
                 <a class="logo w-nav-brand" href="<?php echo esc_url( home_url( ) ); ?>"><img alt="logo" title="logo" width="200" height="34" src="<?php echo $site_logo_url; ?>">
                 </a><!--
              --><nav class="nav-menu w-nav-menu"><!--
-                 --><a class="nav-link w-nav-link <?php echo $merchants_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>merchants">Merchants</a><!--
-                 --><a class="nav-link w-nav-link <?php echo $partners_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>partners">Partners</a><!--
-                 --><a class="nav-link w-nav-link <?php echo $payment_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>payment-gateway">Payment Gateway</a><!--
-                 --><a class="nav-link w-nav-link <?php echo $global_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>global-processing">Global Processing</a><!--
-                 --><a class="nav-link w-nav-link <?php echo $about_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>about-us">About Us</a><!--
-                 --><a class="nav-link w-nav-link <?php echo $news_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>news">News</a><!--
-                 --><a class="nav-link w-nav-link <?php echo $contact_active; ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>contact">Contact</a><!--
-                 --><a class="apply nav-link w-nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>apply-now">Apply Now</a>
+                 --><a class="nav-link w-nav-link <?php echo $merchants_active; ?>" href="/merchants">Merchants</a><!--
+                 --><a class="nav-link w-nav-link <?php echo $partners_active; ?>" href="/partners">Partners</a><!--
+                 --><a class="nav-link w-nav-link <?php echo $payment_active; ?>" href="/payment-gateway">Payment Gateway</a><!--
+                 --><a class="nav-link w-nav-link <?php echo $global_active; ?>" href="/global-processing">Global Processing</a><!--
+                 --><a class="nav-link w-nav-link <?php echo $about_active; ?>" href="/about-us">About Us</a><!--
+                 --><a class="nav-link w-nav-link <?php echo $news_active; ?>" href="/news">News</a><!--
+                 --><a class="nav-link w-nav-link <?php echo $contact_active; ?>" href="/contact">Contact</a><!--
+                 --><a class="apply nav-link w-nav-link" href="/apply-now">Apply Now</a>
                 </nav>
                 <div class="menu-btn w-clearfix w-nav-button">
                     <div class="menu-icon w-icon-nav-menu"></div>
