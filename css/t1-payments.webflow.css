@@ -6042,8 +6042,10 @@ p {
   margin-top: 1.15em;
 }
 
-#field_5_1, #field_5_3, #field_5_5 {
-  padding-right: 10px !important;
+@media only screen and (min-width:1200px) {
+  #field_5_1, #field_5_3, #field_5_5 {
+    padding-right: 10px !important;
+  }
 }
 
 .left-page-title p {

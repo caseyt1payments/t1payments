@@ -107,7 +107,7 @@ switch(get_page_uri()){
                  --><a class="gray nav-link w-nav-link <?php echo $partners_active; ?>" href="/partners">Partners</a><!--
                  --><a class="gray nav-link w-nav-link <?php echo $payment_active; ?>" href="/payment-gateway">Payment Gateway</a><!--
                  --><a class="gray nav-link w-nav-link <?php echo $global_active; ?>" href="/global-processing">Global Processing</a><!--
-                 --><a class="gray nav-link w-nav-link <?php echo $about_active; ?>" href="/>about-us">About Us</a><!--
+                 --><a class="gray nav-link w-nav-link <?php echo $about_active; ?>" href="/about-us">About Us</a><!--
                  --><a class="gray nav-link w-nav-link <?php echo $news_active; ?>" href="/news">News</a><!--
                  --><a class="gray nav-link w-nav-link <?php echo $contact_active; ?>" href="/contact">Contact</a><!--
                  --><a class="apply nav-link solid w-nav-link" href="/apply-now">Apply Now</a>
