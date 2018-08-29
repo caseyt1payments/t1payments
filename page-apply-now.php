@@ -6,7 +6,7 @@
 ?>
 
     <div class="apply hero" id="program-overview">
-        <div class="content-wrapper home-hero">
+        <div class="content-wrapper home-hero apply-now-content-wrapper">
             <div class="w-row">
                 <div class="col p-left-o w-col w-col-6">
                     <div class="contact-text-block p-right-40">
@@ -31,14 +31,6 @@
         </div>
     </div>
 
-    <script>
-        $('input[type="text"]').addClass('text-field w-input').removeClass("medium");
-        $('textarea').addClass('comments w-input').removeClass("medium");
-        $('select').addClass('select-field w-select').removeClass("gfield_select");
-        $('textarea').css({"height": "100px", "resize": "vertical"});
-        $('input[type="submit"]').addClass('button centered w-button');
 
-        $('.gfield_description, .validation_message').hide();
-    </script>
 
 <?php get_footer(); ?>

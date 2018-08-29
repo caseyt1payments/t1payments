@@ -13,16 +13,16 @@
  */
 function governor_scripts() {
 	// Normalize Styles
-	wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), null );
+//	wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css', array(), null );
 
 	// Webflow Main Styles
-	wp_enqueue_style('webflow-main-styles', get_template_directory_uri() . '/css/webflow.css', array(), null );
+//	wp_enqueue_style('webflow-main-styles', get_template_directory_uri() . '/css/webflow.css', array(), null );
 
 	/// Webflow Project Specific Styles
 	wp_enqueue_style('t1-payments', get_template_directory_uri() . '/css/t1-payments.webflow.css', array(), null );
 
 	// Gravity Forms Specific Styles
-	wp_enqueue_style('governor-gravity', get_template_directory_uri() . '/css/governor-gravity.css', array(), null );
+//	wp_enqueue_style('governor-gravity', get_template_directory_uri() . '/css/governor-gravity.css', array(), null );
 	//wp_enqueue_style('progresscss', '//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css', array(), null );
 	wp_enqueue_style('progresscss', '//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css', array(), null );
 

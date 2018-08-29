@@ -93,15 +93,15 @@ s.parentNode.insertBefore(b, s);})();
 		
 		
     <div class="main-wrap">
-        <div class="alert-wrapper">
-            <div class="alert-block">
-                <h1 class="greeting">Hello!</h1>
-                <div class="welcome-text">Welcome to your website&nbsp;<span class="orange-text">wireframe</span>.</div>
-                <div class="hr"></div>
-                <p>This&nbsp;wireframe&nbsp;is a blueprint of your website designed to demonstrate the layout and general functionality. After final approval, our team will move on to incorporating the aesthetics that will bring your design to life!</p>
-                <a class="ok-btn w-button" data-ix="close-alert-wrap" href="#">ok, got it.</a>
-            </div>
-        </div>
+<!--        <div class="alert-wrapper">-->
+<!--            <div class="alert-block">-->
+<!--                <h1 class="greeting">Hello!</h1>-->
+<!--                <div class="welcome-text">Welcome to your website&nbsp;<span class="orange-text">wireframe</span>.</div>-->
+<!--                <div class="hr"></div>-->
+<!--                <p>This&nbsp;wireframe&nbsp;is a blueprint of your website designed to demonstrate the layout and general functionality. After final approval, our team will move on to incorporating the aesthetics that will bring your design to life!</p>-->
+<!--                <a class="ok-btn w-button" data-ix="close-alert-wrap" href="#">ok, got it.</a>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="solid-header w-nav" data-animation="over-right" data-collapse="medium" data-duration="400">
             <div class="header-inner w-clearfix">
                 <a class="logo solid w-nav-brand" href="<?php echo esc_url( home_url( ) ); ?>"><img alt="logo" title="logo" width="150" height="25" src="<?php echo get_template_directory_uri(); ?>/images/Horizontal-logo-color.svg">
