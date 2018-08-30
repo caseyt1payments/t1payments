@@ -12,7 +12,7 @@
     <session id="1188474166">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -22,7 +22,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="335" />
+          <entry key="CSS" value="344" />
           <entry key="JavaScript" value="14" />
           <entry key="PHP" value="122" />
         </counts>
@@ -32,7 +32,7 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="335" />
+          <entry key="css" value="344" />
           <entry key="js" value="14" />
           <entry key="php" value="122" />
         </counts>
@@ -91,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/t1-payments.webflow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="902" column="29" selection-end-line="8277" />
+            <state relative-caret-position="347">
+              <caret line="5441" selection-end-line="8288" />
             </state>
           </provider>
         </entry>
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/t1-payments.webflow.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret column="103718" selection-start-column="103718" selection-end-column="103718" />
+            <state relative-caret-position="89">
+              <caret column="91664" selection-start-column="91664" selection-end-column="91664" />
             </state>
           </provider>
         </entry>
@@ -135,6 +135,7 @@
       <find>#fi</find>
       <find>gform</find>
       <find>.gform_wrapper</find>
+      <find>.header-inner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,12 +253,12 @@
       <workItem from="1535548942395" duration="5568000" />
       <workItem from="1535582225187" duration="6000" />
       <workItem from="1535633454716" duration="413000" />
-      <workItem from="1535634215466" duration="2566000" />
+      <workItem from="1535634215466" duration="4485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16390000" />
+    <option name="totallyTimeSpent" value="18309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2547" y="23" width="1966" height="1290" extended-state="0" />
@@ -451,15 +452,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/t1-payments.webflow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="902" column="29" selection-end-line="8277" />
+        <state relative-caret-position="347">
+          <caret line="5441" selection-end-line="8288" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/t1-payments.webflow.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret column="103718" selection-start-column="103718" selection-end-column="103718" />
+        <state relative-caret-position="89">
+          <caret column="91664" selection-start-column="91664" selection-end-column="91664" />
         </state>
       </provider>
     </entry>
