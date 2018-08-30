@@ -918,6 +918,10 @@ textarea.w-select {
   margin-top: -18px !important;
 }
 
+.gform_wrapper textarea.small, .gform_wrapper textarea.large {
+  border: 2px solid black;
+}
+
 .gform_confirmation_wrapper{
   display: block !important;
   padding: 20px !important;
@@ -1019,6 +1023,9 @@ textarea.w-select {
 }
 .page-template-page-apply-now .gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error.gf_left_half, .gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error.gf_right_half {
   max-width: 100% !important;
+}
+div.gform_wrapper .top_label input.medium, div.gform_wrapper .top_label select.medium {
+  width:100% !important;
 }
 .page-template-page-apply-now .gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
   padding: 0 !important;
